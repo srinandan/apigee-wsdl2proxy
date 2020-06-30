@@ -1,0 +1,8 @@
+out
+.idea
+/.idea/*
+*.iml
+gen
+target
+working
+.DS_Store

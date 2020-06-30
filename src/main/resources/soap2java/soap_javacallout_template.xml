@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JavaCallout async="false" continueOnError="false" enabled="true" name="@@POLICY_NAME@@">
+    <DisplayName>@@DISPLAY_NAME@@</DisplayName>
+    <Properties>
+    </Properties>
+    <ClassName>com.google.cloud.edge.soap2rest.JAXBExecution</ClassName>
+    <ResourceURL>java://soap2rest.jar</ResourceURL>
+    <ResourceURL>java://eclipselink.jar</ResourceURL>
+    <ResourceURL>java://javax-json-1-0.jar</ResourceURL>
+    <ResourceURL>java://javax-json-api-1-0.jar</ResourceURL>
+</JavaCallout>

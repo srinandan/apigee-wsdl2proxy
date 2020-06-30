@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="@@PROXY_NAME@@">
+    <Basepaths>@@BASE_PATH@@</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1490241636776</CreatedAt>
+    <CreatedBy>mviswanathan@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>@@DISPLAY_NAME@@</DisplayName>
+    <LastModifiedAt>1490292482878</LastModifiedAt>
+    <LastModifiedBy>mviswanathan@apigee.com</LastModifiedBy>
+    <Policies>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://eclipselink.jar</Resource>
+        <Resource>java://javax-json-1-0.jar</Resource>
+        <Resource>java://javax-json-api-1-0.jar</Resource>
+        <Resource>java://soap2rest.jar</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
